@@ -44,6 +44,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -60,6 +63,18 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="uStore.Common.BLL">
+      <HintPath>..\..\..\..\Desktop\Стажировка .NET\ссылки\AdminApi\API\uStoreAPI\uStore.Common.BLL.dll</HintPath>
+    </Reference>
+    <Reference Include="uStoreAPI">
+      <HintPath>..\..\..\..\Desktop\Стажировка .NET\ссылки\AdminApi\API\uStoreAPI\uStoreAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="XPI.Logger">
+      <HintPath>..\AdminApp\Bin\XPI.Logger.dll</HintPath>
+    </Reference>
+    <Reference Include="XPI.WebInfrastructure">
+      <HintPath>..\AdminApp\Bin\XPI.WebInfrastructure.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
@@ -67,9 +82,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DataEntry.ascx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataEntry.ascx.cs">
+      <DependentUpon>DataEntry.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DataEntry.ascx.designer.cs">
+      <DependentUpon>DataEntry.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
