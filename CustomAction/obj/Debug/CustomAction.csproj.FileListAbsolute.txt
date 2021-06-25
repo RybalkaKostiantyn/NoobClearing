@@ -1,6 +1,6 @@
 C:\Users\Gamer\source\repos\NoobClearing\CustomAction\bin\Debug\CustomAction.dll
 C:\Users\Gamer\source\repos\NoobClearing\CustomAction\bin\Debug\CustomAction.pdb
-C:\Users\Gamer\source\repos\NoobClearing\CustomAction\obj\Debug\CustomAction.csproj.AssemblyReference.cache
 C:\Users\Gamer\source\repos\NoobClearing\CustomAction\obj\Debug\CustomAction.csproj.CoreCompileInputs.cache
 C:\Users\Gamer\source\repos\NoobClearing\CustomAction\obj\Debug\CustomAction.dll
 C:\Users\Gamer\source\repos\NoobClearing\CustomAction\obj\Debug\CustomAction.pdb
+C:\Users\Gamer\source\repos\NoobClearing\CustomAction\obj\Debug\CustomAction.csproj.AssemblyReference.cache

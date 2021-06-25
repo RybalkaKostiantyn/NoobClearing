@@ -52,7 +52,6 @@ C:\Users\Gamer\source\repos\NoobClearing\ClientApp\bin\roslyn\VBCSCompiler.exe
 C:\Users\Gamer\source\repos\NoobClearing\ClientApp\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\Gamer\source\repos\NoobClearing\ClientApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\Gamer\source\repos\NoobClearing\ClientApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Gamer\source\repos\NoobClearing\ClientApp\obj\Debug\ClientApp.csproj.AssemblyReference.cache
 C:\Users\Gamer\source\repos\NoobClearing\ClientApp\obj\Debug\ClientApp.csproj.CoreCompileInputs.cache
 C:\Users\Gamer\source\repos\NoobClearing\ClientApp\obj\Debug\ClientApp.csproj.CopyComplete
 C:\Users\Gamer\source\repos\NoobClearing\ClientApp\obj\Debug\ClientApp.dll
@@ -122,3 +121,4 @@ C:\Users\Gamer\source\repos\NoobClearing\ClientApp\bin\uStore.CommonControls.dll
 C:\Users\Gamer\source\repos\NoobClearing\ClientApp\bin\Telerik.Web.UI.xml
 C:\Users\Gamer\source\repos\NoobClearing\ClientApp\bin\uStore.Common.BLL.XmlSerializers.dll
 C:\Users\Gamer\source\repos\NoobClearing\ClientApp\bin\XMPieWSAPI.XmlSerializers.dll
+C:\Users\Gamer\source\repos\NoobClearing\ClientApp\obj\Debug\ClientApp.csproj.AssemblyReference.cache

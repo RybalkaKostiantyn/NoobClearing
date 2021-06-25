@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>uStore.PluginSDK</name>
+    </assembly>
+    <members>
+        <member name="T:uStore.PluginSDK.PricingEngine.IOrderProductPricingItem">
+            <summary>
+            This interface represents an item which has pricing, such as an Order Product.
+            </summary>
+        </member>
+        <member name="P:uStore.PluginSDK.PricingEngine.IOrderProductPricingItem.OrderProductID">
+            <summary>
+            The ID of the order product.
+            </summary>
+        </member>
+        <member name="P:uStore.PluginSDK.PricingEngine.IOrderProductPricingItem.ProductID">
+            <summary>
+            The ID of the product.
+            </summary>
+        </member>
+        <member name="P:uStore.PluginSDK.PricingEngine.IOrderProductPricingItem.NumRecipients">
+            <summary>
+            The number of recipients of this order product.
+            </summary>
+        </member>
+        <member name="P:uStore.PluginSDK.PricingEngine.IOrderProductPricingItem.QuantityPerRecipient">
+            <summary>
+            The ordered quantity per each recipient.
+            </summary>
+            <remarks>
+            The value is null when the quantity per recipient
+            is calculated by an ADOR (and is variable and not constant).
+            </remarks>
+        </member>
+        <member name="P:uStore.PluginSDK.PricingEngine.IOrderProductPricingItem.TotalQuantity">
+            <summary>
+            The total number of copies ordered.
+            </summary>
+        </member>
+        <member name="P:uStore.PluginSDK.PricingEngine.IOrderProductPricingItem.RecipientListPrice">
+            <summary>
+            The price of the recipient list, typically used with 3rd party mailing list providers.
+            </summary>
+        </member>
+        <member name="P:uStore.PluginSDK.PricingEngine.IOrderProductPricingItem.DeliveryMethodID">
+            <summary>
+            The ID of the delivery method:
+            1 = Shipping
+            2 = Mailing
+            3 = Void
+            </summary>
+        </member>
+        <member name="P:uStore.PluginSDK.PricingEngine.IOrderProductPricingItem.DeliveryPrice">
+            <summary>
+            The price of the shipping or mailing.
+            </summary>
+        </member>
+        <member name="P:uStore.PluginSDK.PricingEngine.IOrderProductPricingItem.PropertyValueList">
+            <summary>
+            List of the product properties with their values for this order prodcut.
+            </summary>
+        </member>
+        <member name="T:uStore.PluginSDK.PricingEngine.IPropertyValuePricingItem">
+            <summary>
+            This interface represents a property value, used for pricing calculation
+            </summary>
+        </member>
+        <member name="P:uStore.PluginSDK.PricingEngine.IPropertyValuePricingItem.ID">
+            <summary>
+            The ID of the property.
+            </summary>
+        </member>
+        <member name="P:uStore.PluginSDK.PricingEngine.IPropertyValuePricingItem.Value">
+            <summary>
+            The value of the property.
+            </summary>
+        </member>
+        <member name="T:uStore.PluginSDK.PricingEngine.IUploadPagesInformation">
+            <summary>
+            This interface represents the information required for pricing calculation of uploaded pages.
+            The class PricingEngineParameters implements this interface.
+            </summary>
+        </member>
+        <member name="P:uStore.PluginSDK.PricingEngine.IUploadPagesInformation.uploadProductID">
+            <summary>
+            The Upload ProductID
+            </summary>
+        </member>
+        <member name="P:uStore.PluginSDK.PricingEngine.IUploadPagesInformation.numberOfRecipients">
+            <summary>
+            The number of recipients
+            </summary>
+        </member>
+        <member name="P:uStore.PluginSDK.PricingEngine.IUploadPagesInformation.quantityPerRecipient">
+            <summary>
+            The number of copies per recipient
+            </summary>
+        </member>
+        <member name="P:uStore.PluginSDK.PricingEngine.IUploadPagesInformation.numberOfPagesPerOption">
+            <summary>
+            A dictionary having the number of pages that contain each property option. 
+            The dictionary structure should be: [propertyOptionID,numberOfPages]
+            </summary>
+            <remarks>
+            When the property unit is sheet, the number of pages will be passed.
+            Divide it by two and apply Math.Ceiling on the result in order to get the number of sheets.
+            </remarks>
+        </member>
+        <member name="P:uStore.PluginSDK.PricingEngine.IUploadPagesInformation.numberOfPagesPerPageSize">
+            <summary>
+            A dictionary having the number of pages for each page size in mm. 
+            The dictionary structure should be: [[[pageWidth],[pageHeight]],numberOfPages].
+            (pageWidth and pageHeight are of type double)
+            </summary>
+        </member>
+        <member name="P:uStore.PluginSDK.PricingEngine.IUploadPagesInformation.propertiesPerPageList">
+            <summary>
+            A list of dictionaries containing the properties options for each page.
+            Each dictionary in the list denotes a page, in which the dictionary keys are the property IDs, and the values are the property options.
+            Each dictionary structure should be: [propertyID,propertyOption]
+            The dictionaries in the list are in the page order, and also each dictionary holds key-value pairs with its corresponding page number and color.
+            </summary>
+        </member>
+        <member name="T:uStore.PluginSDK.PricingEngine.IPricingCustomOutput">
+            <summary>
+            This interface represents the returned data from the pricing calculation.
+            The class ReturnedData implements this interface.
+            </summary>
+        </member>
+        <member name="P:uStore.PluginSDK.PricingEngine.IPricingCustomOutput.OutputDataXML">
+            <summary>
+            The output data in the form of a serialized XML string.
+            The XML will be in a structure such as this:
+            <OutputData ProductID="3">
+                <Output Name="outCustom1">55.4</Output>
+                <Output Name="outCustom2">7.2</Output>
+                <Output Name="outCustom3">3</Output>
+            </OutputData>
+            </summary>
+        </member>
+    </members>
+</doc>

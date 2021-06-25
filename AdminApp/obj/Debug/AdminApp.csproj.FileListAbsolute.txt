@@ -1,4 +1,3 @@
-C:\Users\Gamer\source\repos\NoobClearing\AdminApp\obj\Debug\AdminApp.csproj.AssemblyReference.cache
 C:\Users\Gamer\source\repos\NoobClearing\AdminApp\obj\Debug\AdminApp.csproj.CoreCompileInputs.cache
 C:\Users\Gamer\source\repos\NoobClearing\AdminApp\bin\AdminApp.dll.config
 C:\Users\Gamer\source\repos\NoobClearing\AdminApp\bin\AdminApp.dll

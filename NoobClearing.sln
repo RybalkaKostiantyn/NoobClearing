@@ -7,11 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApps", "WebApps", "{EE8D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Installer", "Installer", "{23510FDC-9BD0-4176-BF26-0F41925BCB47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdminApp", "AdminApp\AdminApp.csproj", "{A85D1AE6-4A49-4197-BFA6-0A92002898D9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoobClearingAdminApp", "AdminApp\NoobClearingAdminApp.csproj", "{A85D1AE6-4A49-4197-BFA6-0A92002898D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientApp", "ClientApp\ClientApp.csproj", "{474D5160-02A8-4ABE-8F23-9A6DF359FD1D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoobClearingClientApp", "ClientApp\NoobClearingClientApp.csproj", "{474D5160-02A8-4ABE-8F23-9A6DF359FD1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicBase", "LogicBase\LogicBase.csproj", "{52BC8A70-F547-44F1-AB0E-2304FA9EC99E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoobClearingLogicBase", "LogicBase\NoobClearingLogicBase.csproj", "{52BC8A70-F547-44F1-AB0E-2304FA9EC99E}"
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "NoobClearingPluginSetup", "NoobClearingPluginSetup\NoobClearingPluginSetup.vdproj", "{DC830588-2C2B-44CE-B4EF-68EB11CCB245}"
 EndProject
