@@ -4,3 +4,13 @@ C:\Users\Gamer\source\repos\NoobClearing\CustomAction\obj\Debug\CustomAction.csp
 C:\Users\Gamer\source\repos\NoobClearing\CustomAction\obj\Debug\CustomAction.dll
 C:\Users\Gamer\source\repos\NoobClearing\CustomAction\obj\Debug\CustomAction.pdb
 C:\Users\Gamer\source\repos\NoobClearing\CustomAction\obj\Debug\CustomAction.csproj.AssemblyReference.cache
+C:\Users\Gamer\source\repos\NoobClearing\CustomAction\bin\Debug\uStoreInstallerCommonLogic.dll
+C:\Users\Gamer\source\repos\NoobClearing\CustomAction\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Gamer\source\repos\NoobClearing\CustomAction\bin\Debug\Ionic.Zip.dll
+C:\Users\Gamer\source\repos\NoobClearing\CustomAction\bin\Debug\Microsoft.SqlServer.Smo.dll
+C:\Users\Gamer\source\repos\NoobClearing\CustomAction\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+C:\Users\Gamer\source\repos\NoobClearing\CustomAction\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+C:\Users\Gamer\source\repos\NoobClearing\CustomAction\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+C:\Users\Gamer\source\repos\NoobClearing\CustomAction\bin\Debug\Microsoft.SqlServer.SqlClrProvider.dll
+C:\Users\Gamer\source\repos\NoobClearing\CustomAction\bin\Debug\uStoreInstallerCommonLogic.pdb
+C:\Users\Gamer\source\repos\NoobClearing\CustomAction\obj\Debug\CustomAction.csproj.CopyComplete

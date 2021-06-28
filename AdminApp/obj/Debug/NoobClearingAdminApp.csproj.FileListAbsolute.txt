@@ -117,4 +117,3 @@ C:\Users\Gamer\source\repos\NoobClearing\AdminApp\obj\Debug\NoobClearingAdminApp
 C:\Users\Gamer\source\repos\NoobClearing\AdminApp\obj\Debug\NoobClearingAdminApp.csproj.CopyComplete
 C:\Users\Gamer\source\repos\NoobClearing\AdminApp\obj\Debug\AdminApp.dll
 C:\Users\Gamer\source\repos\NoobClearing\AdminApp\obj\Debug\AdminApp.pdb
-C:\Users\Gamer\source\repos\NoobClearing\AdminApp\obj\Debug\NoobClearingAdminApp.csproj.AssemblyReference.cache

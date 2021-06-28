@@ -121,3 +121,4 @@ C:\Users\Gamer\source\repos\NoobClearing\ClientApp\obj\Debug\NoobClearingClientA
 C:\Users\Gamer\source\repos\NoobClearing\ClientApp\obj\Debug\NoobClearingClientApp.csproj.CopyComplete
 C:\Users\Gamer\source\repos\NoobClearing\ClientApp\obj\Debug\ClientApp.dll
 C:\Users\Gamer\source\repos\NoobClearing\ClientApp\obj\Debug\ClientApp.pdb
+C:\Users\Gamer\source\repos\NoobClearing\ClientApp\obj\Debug\NoobClearingClientApp.csproj.AssemblyReference.cache
